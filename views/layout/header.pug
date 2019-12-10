@@ -1,0 +1,23 @@
+header.header
+  a.logo-block(href='/')
+    img.white-asset(src="/images/check2.png", alt="Site logo") 
+    img.dark-asset(src="/images/check1.png", alt="Site logo") 
+    h3.logo-text Todoop
+
+  if menuContent
+    nav.main-nav
+      ul
+        each menuLink in menuContent.data.menu_links
+          li
+            a(href=ctx.prismicDom.Link.url(menuLink.link, ctx.linkResolver))
+              != ctx.prismicDom.RichText.asText(menuLink.label)
+
+        if document
+          each altlang in document.alternate_languages
+            li
+              a(href=ctx.linkResolver(altlang))
+                p.flag-icon(class=`flag-icon-${altlang.lang.slice(-2)}`)
+            li
+              a(href="/change-mode")
+                img.white-asset(src="/images/moon2.png", alt="Color mode toggle")
+                img.dark-asset(src= "/images/moon1.png", alt="Color mode toggle")

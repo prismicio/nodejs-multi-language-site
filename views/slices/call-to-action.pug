@@ -1,0 +1,9 @@
+section.off-white-desc
+  div.call-to-action
+    != ctx.prismicDom.RichText.asHtml(slice.primary.action_title)
+    != ctx.prismicDom.RichText.asHtml(slice.primary.action_text, ctx.linkresolver)
+      
+  div.btn-content      
+    a(href='#')
+      img.dark-asset(src=slice.primary.black_button.url, alt=slice.primary.black_button.alt)
+      img.white-asset(src=slice.primary.white_button.url, alt=slice.primary.white_button.alt) 

@@ -1,0 +1,10 @@
+section.off-white-desc
+  div.email-signup
+    != ctx.prismicDom.RichText.asHtml(slice.primary.email_title)
+    != ctx.prismicDom.RichText.asHtml(slice.primary.email_text, ctx.linkResolver) 
+
+  div.signup-content
+    != ctx.prismicDom.RichText.asHtml(slice.primary.label, ctx.linkResolver)
+    input(placeholder=slice.primary.placeholder)
+    div.newsletters-btn
+      != ctx.prismicDom.RichText.asHtml(slice.primary.button_text, ctx.linkResolver)

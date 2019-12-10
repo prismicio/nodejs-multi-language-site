@@ -1,0 +1,24 @@
+doctype html(lang='en')
+head
+  title Multilanguage site
+  meta(name="viewport", content="width=device-width, initial-scale=1")
+  link(rel="stylesheet", href="/stylesheets/reset.css")
+  link(rel="stylesheet", href="/stylesheets/style.css")
+  link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/css/flag-icon.min.css")
+  link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap")
+  
+  // Required for Previews
+  if ctx
+    - var repoName = (ctx.apiEndpoint.match(/^(https?\:)\/\/(([^:\/?#]*)(?:\:([0-9]+))?)([\/]{0,1}[^?#]*)(\?[^#]*|)(#.*|)$/))[2].split('.')[0];
+  script(async='', defer='', src=`//static.cdn.prismic.io/prismic.js?repo=${repoName}&new=true`)
+
+if ctx
+  - var className = ctx.colorMode
+else 
+  - var className = ''
+
+body#body(class=className)
+  include ./header
+  block body
+  include ./footer
+

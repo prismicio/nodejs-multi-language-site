@@ -1,0 +1,10 @@
+section.icon-info-section.off-white-desc
+  div
+    img.dark-asset(src=slice.primary.icon_black.url, alt=slice.primary.icon_black.alt)
+    img.white-asset(src=slice.primary.icon_white.url, alt=slice.primary.icon_white.alt)
+    != ctx.prismicDom.RichText.asHtml(slice.primary.info_title)
+    != ctx.prismicDom.RichText.asHtml(slice.primary.info_text, ctx.linkresolver)
+      
+  div.info-desc
+    != ctx.prismicDom.RichText.asHtml(slice.primary.info_desc, ctx.linkresolver)
+    

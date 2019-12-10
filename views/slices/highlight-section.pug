@@ -1,0 +1,21 @@
+section.highlight-section
+  div.highlight-image
+    picture
+      source(
+        srcset=slice.primary.highlight_image.Mobileview.url,
+        alt=slice.primary.highlight_image.Mobileview.alt,
+        media='(max-width: 500px)'
+      )
+      source(
+        srcset=slice.primary.highlight_image.Tabletview.url,
+        alt=slice.primary.highlight_image.Tabletview.alt,
+        media='(max-width: 1100px)'
+      )
+      img(src=slice.primary.highlight_image.url, alt=slice.primary.highlight_image.alt)
+
+  div.highlight-content.off-white-desc
+    img.dark-asset(src=slice.primary.icon_black.url, alt=slice.primary.icon_black.alt)
+    img.white-asset(src=slice.primary.icon_white.url, alt=slice.primary.icon_white.alt)
+    != ctx.prismicDom.RichText.asHtml(slice.primary.highlight_title)
+    != ctx.prismicDom.RichText.asHtml(slice.primary.highlight_text, ctx.linkResolver)
+    

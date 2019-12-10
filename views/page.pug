@@ -1,0 +1,17 @@
+extends ./layout/global-layout
+
+block body
+  div.container
+    for slice in document.data.page_content
+      case slice.slice_type
+        when "call_to_action"
+          include ./slices/call-to-action
+        when "full_width_image"
+          include ./slices/full-width-image
+        when "icon_info_section"
+          include ./slices/icon-info-section
+        when "highlight_section"
+          include ./slices/highlight-section
+        when "email_signup"
+          include ./slices/email-signup
+          

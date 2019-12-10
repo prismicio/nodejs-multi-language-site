@@ -1,0 +1,24 @@
+if slice.primary.background_image_position
+  - var backgroundImage = `full-width-image-${slice.primary.background_image_position}`
+else
+  - var backgroundImage = "full-width-image-right"
+
+//- If there is no white theme image then render the black image 
+if slice.primary.image_white.url
+  - var whiteImage = slice.primary.image_white
+else 
+  - var whiteImage = slice.primary.image_black
+  
+//- If there is no black theme image then render white image 
+if slice.primary.image_black.url
+  - var blackImage = slice.primary.image_black
+else 
+  - var blackImage = slice.primary.image_white
+
+section.image-container 
+  div(class=backgroundImage)
+    img.back-img(src=slice.primary.background_image.url, alt=slice.primary.background_image.alt)
+  div.main-image
+    img.dark-asset(src= blackImage.url, alt= blackImage.alt)
+    img.white-asset(src=whiteImage.url, alt=whiteImage.alt)
+    
