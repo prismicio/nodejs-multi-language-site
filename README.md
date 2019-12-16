@@ -4,7 +4,7 @@ This is an example multi-language project with node.js and express.js with conte
  
 ## Check out our article for a step-by-step guide to getting this project up and running
  
-[Prismic Example project guide](https://app.intercom.com/a/apps/bnnh3u9v/articles/articles/3369091/show) contains the instructions to create your Prismic repository and run this project.
+[Prismic Example project guide](https://user-guides.prismic.io/en/articles/3369091-sample-multi-language-node-js-website-with-prismic-cms) contains the instructions to create your Prismic repository and run this project.
  
 ## Deploy your Node.js Multi-language project
  
