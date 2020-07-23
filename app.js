@@ -56,7 +56,6 @@ app.get("/change-mode",  (req, res) => {
 app.get(["/:lang", "/:lang/*"], asyncHandler(async (req, res, next) => {
   const lang = req.params.lang;
   const colorMode = getColorMode(req, res);
-  
   // Set locals variables in res to be used in view templates
   res.locals.ctx = {
     apiEndpoint: prismicConfig.apiEndpoint,
