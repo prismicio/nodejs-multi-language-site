@@ -1,3 +1,3 @@
 module.exports = {
-  defaultLanguage : "en-us",
+  defaultLanguage : "en-gb",
 }
