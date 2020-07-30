@@ -37,15 +37,21 @@ app.get("*", asyncHandler(async (req, res,next) => {
 }));
 
 // Prismic preview route
-app.get('/preview', asyncHandler(async (req, res) => {
-  const token = req.query.token;
-  if (token) {
-    const url = await req.prismic.api.previewSession(token, prismicConfig.linkResolver, '/');
-    res.redirect(302, url);
-  } else {
-    throw new Error('Missing token from preview querystring');
+ app.get('/preview', asyncHandler(async (req, res, next) => {
+  const { token, documentId } = req.query;
+  if(token){
+    try{
+      const redirectUrl = (await req.prismic.api.getPreviewResolver(token, documentId).resolve(prismicConfig.linkResolver, '/'));
+      res.redirect(302, redirectUrl);
+    }catch(e){
+      res.status(500).send(`Error 500 in preview`);
+    }
+  }else{
+    res.send(400, 'Missing token from querystring');
   }
-}));
+  next();
+}))
+
 
 // Route to toggle change in color mode
 app.get("/change-mode",  (req, res) => {
@@ -56,7 +62,6 @@ app.get("/change-mode",  (req, res) => {
 app.get(["/:lang", "/:lang/*"], asyncHandler(async (req, res, next) => {
   const lang = req.params.lang;
   const colorMode = getColorMode(req, res);
-  
   // Set locals variables in res to be used in view templates
   res.locals.ctx = {
     apiEndpoint: prismicConfig.apiEndpoint,
