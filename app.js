@@ -1,7 +1,7 @@
 "use strict";
 
 // Module dependencies
-const prismic = require("prismic-javascript");
+const prismic = require('@prismicio/client');
 const prismicDom = require("prismic-dom");
 const app = require("./config/app-config");
 const prismicConfig = require("./config/prismic-config");
@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
 
 // Middleware to fetch Prismic api object
 app.get("*", asyncHandler(async (req, res,next) => {
-  const api = await prismic.api(
+  const api = await prismic.getApi(
     prismicConfig.apiEndpoint,
     { req, accessToken: prismicConfig.accessToken }
   );
