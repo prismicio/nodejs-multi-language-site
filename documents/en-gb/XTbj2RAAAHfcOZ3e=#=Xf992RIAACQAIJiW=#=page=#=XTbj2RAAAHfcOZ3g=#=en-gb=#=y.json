@@ -1,0 +1,359 @@
+{
+  "uid": "aboutus",
+  "page_content": [
+    {
+      "key": "call_to_action$2a1676b0-4867-4f86-9d85-eb7d62732317",
+      "value": {
+        "repeat": [{}],
+        "non-repeat": {
+          "action_title": [
+            {
+              "type": "heading1",
+              "content": { "text": "About Todoop.", "spans": [] }
+            }
+          ],
+          "action_text": [
+            {
+              "type": "paragraph",
+              "content": {
+                "text": "Life can feel overwhelming, but it doesn’t have to. Todoist lets you keep track of everything in one place, so you can get it all done and enjoy more peace of mind along the way.",
+                "spans": []
+              }
+            }
+          ],
+          "black_button": {
+            "origin": {
+              "id": "XWPk5BMAACAAo-Yv",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2F475d5c20-710a-4c52-ae18-57592023b753_twitter-btn-black.png",
+              "width": 232,
+              "height": 74
+            },
+            "width": 232,
+            "height": 74,
+            "url": "https://images.prismic.io/todo-app-sample%2F475d5c20-710a-4c52-ae18-57592023b753_twitter-btn-black.png?auto=compress,format",
+            "edit": {
+              "background": "transparent",
+              "zoom": 1,
+              "crop": { "x": 0, "y": 0 }
+            },
+            "credits": null,
+            "alt": "Available on twitter",
+            "provider": "imgix",
+            "thumbnails": {}
+          },
+          "white_button": {
+            "origin": {
+              "id": "XWPk5BMAAB8Ao-Yw",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2Fe1fc64c1-4cbc-4275-b3dd-3e6cfa3c822b_twitter-btn-white.png",
+              "width": 232,
+              "height": 74
+            },
+            "width": 232,
+            "height": 74,
+            "url": "https://images.prismic.io/todo-app-sample%2Fe1fc64c1-4cbc-4275-b3dd-3e6cfa3c822b_twitter-btn-white.png?auto=compress,format",
+            "edit": {
+              "background": "transparent",
+              "zoom": 1,
+              "crop": { "x": 0, "y": 0 }
+            },
+            "credits": null,
+            "alt": "Available on twitter",
+            "provider": "imgix",
+            "thumbnails": {}
+          }
+        }
+      }
+    },
+    {
+      "key": "full_width_image$0679c55d-d75f-450f-8a87-6c1747b7585e",
+      "value": {
+        "repeat": [{}],
+        "non-repeat": {
+          "background_image_position": "left",
+          "background_image": {
+            "origin": {
+              "id": "XV08DxEAACIAmGwj",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2F1e54c41f-ae78-4d0d-841f-cc1bd27cf302_rectangle+4%402x.png",
+              "width": 1686,
+              "height": 1380
+            },
+            "width": 1686,
+            "height": 1380,
+            "url": "https://images.prismic.io/todo-app-sample%2F1e54c41f-ae78-4d0d-841f-cc1bd27cf302_rectangle+4%402x.png?auto=compress,format",
+            "edit": {
+              "background": "transparent",
+              "zoom": 1,
+              "crop": { "x": 0, "y": 0 }
+            },
+            "credits": null,
+            "alt": "Checkbox background",
+            "provider": "imgix",
+            "thumbnails": {}
+          },
+          "image_black": {
+            "origin": {
+              "id": "XWPEPBAAACYA73EP",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2F3cae727c-264d-413c-b522-6eb83c914d28_bitmap2%402x.png",
+              "width": 2456,
+              "height": 1316
+            },
+            "width": 1228,
+            "height": 658,
+            "url": "https://images.prismic.io/todo-app-sample%2F3cae727c-264d-413c-b522-6eb83c914d28_bitmap2%402x.png?auto=compress,format&rect=0,1,2454,1315&w=1228&h=658",
+            "edit": {
+              "background": "transparent",
+              "zoom": 0.5,
+              "crop": { "x": 0, "y": 0 }
+            },
+            "credits": null,
+            "alt": "Discussion in meeting room",
+            "provider": "imgix",
+            "thumbnails": {}
+          },
+          "image_white": {
+            "origin": {
+              "id": "XWPEPBAAACYA73EP",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2F3cae727c-264d-413c-b522-6eb83c914d28_bitmap2%402x.png",
+              "width": 2456,
+              "height": 1316
+            },
+            "provider": "imgix",
+            "url": "https://images.prismic.io/todo-app-sample%2F3cae727c-264d-413c-b522-6eb83c914d28_bitmap2%402x.png?auto=compress,format",
+            "alt": null,
+            "credits": null,
+            "width": 2456,
+            "height": 1316,
+            "edit": {
+              "zoom": 1,
+              "crop": { "x": 0, "y": 0 },
+              "background": "transparent"
+            },
+            "thumbnails": {}
+          }
+        }
+      }
+    },
+    {
+      "key": "highlight_section$0102cb00-10c5-4c31-a9ea-00af537e629c",
+      "value": {
+        "repeat": [{}],
+        "non-repeat": {
+          "highlight_image": {
+            "origin": {
+              "id": "XTHXUBAAACQAI3Yp",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2F12181a0f-236d-4682-b0ba-9f537a981058_room.png",
+              "width": 600,
+              "height": 690
+            },
+            "width": 600,
+            "height": 812,
+            "url": "https://images.prismic.io/todo-app-sample%2F12181a0f-236d-4682-b0ba-9f537a981058_room.png?auto=compress,format&rect=45,0,510,690&w=600&h=812",
+            "edit": {
+              "background": "transparent",
+              "zoom": 1.1768115942028985,
+              "crop": { "x": -53, "y": 0 }
+            },
+            "credits": null,
+            "alt": "Office area",
+            "provider": "imgix",
+            "thumbnails": {
+              "Mobileview": {
+                "origin": {
+                  "id": "XTHXUBAAACQAI3Yp",
+                  "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2F12181a0f-236d-4682-b0ba-9f537a981058_room.png",
+                  "width": 600,
+                  "height": 690
+                },
+                "width": 400,
+                "height": 300,
+                "url": "https://images.prismic.io/todo-app-sample%2F12181a0f-236d-4682-b0ba-9f537a981058_room.png?auto=compress,format&rect=0,120,600,450&w=400&h=300",
+                "edit": {
+                  "background": "transparent",
+                  "zoom": 0.6666666666666666,
+                  "crop": { "x": 0, "y": -80 }
+                },
+                "credits": null,
+                "alt": "Office area",
+                "provider": "imgix"
+              },
+              "Tabletview": {
+                "origin": {
+                  "id": "XTHXUBAAACQAI3Yp",
+                  "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2F12181a0f-236d-4682-b0ba-9f537a981058_room.png",
+                  "width": 600,
+                  "height": 690
+                },
+                "width": 800,
+                "height": 400,
+                "url": "https://images.prismic.io/todo-app-sample%2F12181a0f-236d-4682-b0ba-9f537a981058_room.png?auto=compress,format&rect=0,195,600,300&w=800&h=400",
+                "edit": {
+                  "background": "transparent",
+                  "zoom": 1.3333333333333333,
+                  "crop": { "x": 0, "y": -260 }
+                },
+                "credits": null,
+                "alt": "Office area",
+                "provider": "imgix"
+              }
+            }
+          },
+          "icon_black": {
+            "origin": {
+              "id": "XTbV3hAAACIAOV5_",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2Fb9bdd251-746e-4b5f-b376-9d25af21ce2d_icon_black.png",
+              "width": 62,
+              "height": 62
+            },
+            "width": 62,
+            "height": 62,
+            "url": "https://images.prismic.io/todo-app-sample%2Fb9bdd251-746e-4b5f-b376-9d25af21ce2d_icon_black.png?auto=compress,format",
+            "edit": {
+              "background": "transparent",
+              "zoom": 1,
+              "crop": { "x": 0, "y": 0 }
+            },
+            "credits": null,
+            "alt": "Checkbox Icon",
+            "provider": "imgix",
+            "thumbnails": {}
+          },
+          "icon_white": {
+            "origin": {
+              "id": "XTbV3hAAACQAOV6A",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2F8980f8bd-65b4-4f63-bfbc-05c3db53c1f7_icon_white.png",
+              "width": 62,
+              "height": 62
+            },
+            "width": 62,
+            "height": 62,
+            "url": "https://images.prismic.io/todo-app-sample%2F8980f8bd-65b4-4f63-bfbc-05c3db53c1f7_icon_white.png?auto=compress,format",
+            "edit": {
+              "background": "transparent",
+              "zoom": 1,
+              "crop": { "x": 0, "y": 0 }
+            },
+            "credits": null,
+            "alt": "Checkbox Icon",
+            "provider": "imgix",
+            "thumbnails": {}
+          },
+          "highlight_title": [
+            {
+              "type": "heading2",
+              "content": {
+                "text": "The future of Todo application",
+                "spans": [{ "start": 0, "end": 30, "type": "strong" }]
+              }
+            }
+          ],
+          "highlight_text": [
+            {
+              "type": "paragraph",
+              "content": {
+                "text": "Life can feel overwhelming, but it doesn’t have to. Todoist lets you keep track of everything in one place, so you can get it all done and enjoy more peace of mind along the way.",
+                "spans": [{ "start": 0, "end": 178, "type": "strong" }]
+              }
+            },
+            {
+              "type": "paragraph",
+              "content": {
+                "text": "Let Todoist remember it all for you. You can get tasks out of your head and onto your to-do list anytime, anywhere, on any device – even offline. Let Todoist remember it all for you. You can get tasks out of your head and onto your to-do list anytime, anywhere, on any device – even offline. Let Todoist remember it all for you. You can get tasks out of your head and onto your to-do list anytime, anywhere, on any device – even offline. Let Todoist remember it all for you. You can get tasks out of your head and onto your to-do list anytime, anywhere, on any device – even offline.",
+                "spans": []
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "email_signup$dd3a6d64-e26b-4ae2-af04-f5e24c19465b",
+      "value": {
+        "repeat": [{}],
+        "non-repeat": {
+          "email_title": [
+            {
+              "type": "heading2",
+              "content": { "text": "Get notified", "spans": [] }
+            }
+          ],
+          "email_text": [
+            {
+              "type": "paragraph",
+              "content": {
+                "text": "Get notified about updates and be the first to get early access to the new, safer and smarter way to archive your files.",
+                "spans": []
+              }
+            }
+          ],
+          "label": [
+            {
+              "type": "paragraph",
+              "content": { "text": "Your Email:", "spans": [] }
+            }
+          ],
+          "placeholder": "johndoe@gmail.com",
+          "button_text": [
+            {
+              "type": "paragraph",
+              "content": { "text": "Join our Newsletters", "spans": [] }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "uid_TYPE": "UID",
+  "uid_POSITION": 0,
+  "page_content_TYPE": "Slices",
+  "page_content_POSITION": 1,
+  "page_content.email_signup_TYPE": "Slice",
+  "page_content.email_signup_POSITION": 2,
+  "page_content.email_signup.non-repeat.email_title_TYPE": "StructuredText",
+  "page_content.email_signup.non-repeat.email_title_POSITION": 3,
+  "page_content.email_signup.non-repeat.email_text_TYPE": "StructuredText",
+  "page_content.email_signup.non-repeat.email_text_POSITION": 4,
+  "page_content.email_signup.non-repeat.label_TYPE": "StructuredText",
+  "page_content.email_signup.non-repeat.label_POSITION": 5,
+  "page_content.email_signup.non-repeat.placeholder_TYPE": "Text",
+  "page_content.email_signup.non-repeat.placeholder_POSITION": 6,
+  "page_content.email_signup.non-repeat.button_text_TYPE": "StructuredText",
+  "page_content.email_signup.non-repeat.button_text_POSITION": 7,
+  "page_content.call_to_action_TYPE": "Slice",
+  "page_content.call_to_action_POSITION": 8,
+  "page_content.call_to_action.non-repeat.action_title_TYPE": "StructuredText",
+  "page_content.call_to_action.non-repeat.action_title_POSITION": 9,
+  "page_content.call_to_action.non-repeat.action_text_TYPE": "StructuredText",
+  "page_content.call_to_action.non-repeat.action_text_POSITION": 10,
+  "page_content.call_to_action.non-repeat.black_button_TYPE": "Image",
+  "page_content.call_to_action.non-repeat.black_button_POSITION": 11,
+  "page_content.call_to_action.non-repeat.white_button_TYPE": "Image",
+  "page_content.call_to_action.non-repeat.white_button_POSITION": 12,
+  "page_content.highlight_section_TYPE": "Slice",
+  "page_content.highlight_section_POSITION": 13,
+  "page_content.highlight_section.non-repeat.highlight_image_TYPE": "Image",
+  "page_content.highlight_section.non-repeat.highlight_image_POSITION": 14,
+  "page_content.highlight_section.non-repeat.icon_black_TYPE": "Image",
+  "page_content.highlight_section.non-repeat.icon_black_POSITION": 15,
+  "page_content.highlight_section.non-repeat.icon_white_TYPE": "Image",
+  "page_content.highlight_section.non-repeat.icon_white_POSITION": 16,
+  "page_content.highlight_section.non-repeat.highlight_title_TYPE": "StructuredText",
+  "page_content.highlight_section.non-repeat.highlight_title_POSITION": 17,
+  "page_content.highlight_section.non-repeat.highlight_text_TYPE": "StructuredText",
+  "page_content.highlight_section.non-repeat.highlight_text_POSITION": 18,
+  "page_content.full_width_image_TYPE": "Slice",
+  "page_content.full_width_image_POSITION": 19,
+  "page_content.full_width_image.non-repeat.background_image_position_TYPE": "Select",
+  "page_content.full_width_image.non-repeat.background_image_position_POSITION": 20,
+  "page_content.full_width_image.non-repeat.background_image_TYPE": "Image",
+  "page_content.full_width_image.non-repeat.background_image_POSITION": 21,
+  "page_content.full_width_image.non-repeat.image_black_TYPE": "Image",
+  "page_content.full_width_image.non-repeat.image_black_POSITION": 22,
+  "page_content.full_width_image.non-repeat.image_white_TYPE": "Image",
+  "page_content.full_width_image.non-repeat.image_white_POSITION": 23,
+  "meta_title_TYPE": "StructuredText",
+  "meta_title_POSITION": 24,
+  "meta_description_TYPE": "StructuredText",
+  "meta_description_POSITION": 25,
+  "slugs_INTERNAL": ["about-todoop.", "about-todoop.-zzz", "about-todoop.."],
+  "uids_INTERNAL": ["aboutus", "about"]
+}

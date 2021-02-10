@@ -1,0 +1,401 @@
+{
+  "display_title": [
+    { "type": "heading1", "content": { "text": "Page d'accueil", "spans": [] } }
+  ],
+  "page_content": [
+    {
+      "key": "call_to_action$5a0d1d79-038e-425b-8d10-cee5e62e01f0",
+      "value": {
+        "repeat": [{}],
+        "non-repeat": {
+          "action_title": [
+            {
+              "type": "heading1",
+              "content": { "text": "Gardez votre vie organisée", "spans": [] }
+            }
+          ],
+          "action_text": [
+            {
+              "type": "paragraph",
+              "content": {
+                "text": "La vie peut sembler écrasante, mais ce n’est pas nécessaire. Todoist vous permet de tout garder au même endroit, pour que tout soit fini et que vous ayez l'esprit tranquille en chemin.",
+                "spans": []
+              }
+            }
+          ],
+          "black_button": {
+            "origin": {
+              "id": "XWPk5BMAACEAo-Yp",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2F2381a2c9-db0d-412e-9b18-7854f7b091a2_app-store-btn-black.png",
+              "width": 232,
+              "height": 74
+            },
+            "width": 232,
+            "height": 74,
+            "url": "https://images.prismic.io/todo-app-sample%2F2381a2c9-db0d-412e-9b18-7854f7b091a2_app-store-btn-black.png?auto=compress,format",
+            "edit": {
+              "background": "transparent",
+              "zoom": 1,
+              "crop": { "x": 0, "y": 0 }
+            },
+            "credits": null,
+            "alt": "Available on app store",
+            "provider": null,
+            "thumbnails": {}
+          },
+          "white_button": {
+            "origin": {
+              "id": "XWPk5BMAACAAo-Yu",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2F2c54432d-d9c4-4cc5-a2b9-d075a7b9193c_app-store-btn-white.png",
+              "width": 232,
+              "height": 74
+            },
+            "width": 232,
+            "height": 74,
+            "url": "https://images.prismic.io/todo-app-sample%2F2c54432d-d9c4-4cc5-a2b9-d075a7b9193c_app-store-btn-white.png?auto=compress,format",
+            "edit": {
+              "background": "transparent",
+              "zoom": 1,
+              "crop": { "x": 0, "y": 0 }
+            },
+            "credits": null,
+            "alt": "Available on app store",
+            "provider": null,
+            "thumbnails": {}
+          }
+        }
+      }
+    },
+    {
+      "key": "full_width_image$e58404e9-f95d-4b76-8129-e9bda78e2ace",
+      "value": {
+        "repeat": [{}],
+        "non-repeat": {
+          "background_image_position": "left",
+          "background_image": {
+            "origin": {
+              "id": "XV08DxEAACIAmGwj",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2F1e54c41f-ae78-4d0d-841f-cc1bd27cf302_rectangle+4%402x.png",
+              "width": 1686,
+              "height": 1380
+            },
+            "width": 1686,
+            "height": 1380,
+            "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample/809040bc9dd98dabb52d8e51835ba6549451c734_rectangle-42x.png",
+            "edit": {
+              "background": "transparent",
+              "zoom": 1,
+              "crop": { "x": 0, "y": 0 }
+            },
+            "credits": null,
+            "alt": "Checkbox background ",
+            "provider": null,
+            "thumbnails": {}
+          },
+          "image_black": {
+            "origin": {
+              "id": "XWP0xhMAACIApCwc",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2Fd9fef07f-eabb-4e51-a8a0-a757a95cc202_app-screen-black.png",
+              "width": 1228,
+              "height": 658
+            },
+            "width": 1228,
+            "height": 658,
+            "url": "https://images.prismic.io/todo-app-sample%2Fd9fef07f-eabb-4e51-a8a0-a757a95cc202_app-screen-black.png?auto=compress,format&rect=0,0,1226,657&w=1228&h=658",
+            "edit": {
+              "background": "transparent",
+              "zoom": 1,
+              "crop": { "x": 0, "y": 0 }
+            },
+            "credits": null,
+            "alt": "Layout of the Application",
+            "provider": "imgix",
+            "thumbnails": {}
+          },
+          "image_white": {
+            "origin": {
+              "id": "XWP1ihMAACEApC93",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2F726aa6ed-6498-4814-b0a4-a4f1db034a7e_app-screen-white.png",
+              "width": 1228,
+              "height": 658
+            },
+            "width": 1228,
+            "height": 658,
+            "url": "https://images.prismic.io/todo-app-sample%2F726aa6ed-6498-4814-b0a4-a4f1db034a7e_app-screen-white.png?auto=compress,format&rect=0,0,1226,657&w=1228&h=658",
+            "edit": {
+              "background": "transparent",
+              "zoom": 1,
+              "crop": { "x": 0, "y": 0 }
+            },
+            "credits": null,
+            "alt": "Layout of the Application",
+            "provider": "imgix",
+            "thumbnails": {}
+          }
+        }
+      }
+    },
+    {
+      "key": "icon_info_section$d9761cab-77b9-404f-931d-ea6a7936fa88",
+      "value": {
+        "repeat": [{}],
+        "non-repeat": {
+          "icon_black": {
+            "origin": {
+              "id": "XTbV3hAAACIAOV5_",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2Fb9bdd251-746e-4b5f-b376-9d25af21ce2d_icon_black.png",
+              "width": 62,
+              "height": 62
+            },
+            "width": 62,
+            "height": 62,
+            "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample/64787df395baf2a1656cef68f3592957bb415b2a_icon_black.png",
+            "edit": {
+              "background": "transparent",
+              "zoom": 1,
+              "crop": { "x": 0, "y": 0 }
+            },
+            "credits": null,
+            "alt": "Checkbox icon",
+            "provider": null,
+            "thumbnails": {}
+          },
+          "icon_white": {
+            "origin": {
+              "id": "XTbV3hAAACQAOV6A",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2F8980f8bd-65b4-4f63-bfbc-05c3db53c1f7_icon_white.png",
+              "width": 62,
+              "height": 62
+            },
+            "width": 62,
+            "height": 62,
+            "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample/36f0a6b94c8e34cb43f340748affe34701543735_icon_white.png",
+            "edit": {
+              "background": "transparent",
+              "zoom": 1,
+              "crop": { "x": 0, "y": 0 }
+            },
+            "credits": null,
+            "alt": "Checkbox icon",
+            "provider": null,
+            "thumbnails": {}
+          },
+          "info_title": [
+            {
+              "type": "heading2",
+              "content": {
+                "text": "L'avenir de l'application Todo",
+                "spans": []
+              }
+            }
+          ],
+          "info_text": [
+            {
+              "type": "paragraph",
+              "content": {
+                "text": "La vie peut sembler écrasante, mais ce n’est pas nécessaire. Todoist vous permet de tout garder au même endroit, pour que tout soit fini et que vous ayez l'esprit tranquille en chemin.",
+                "spans": []
+              }
+            }
+          ],
+          "info_desc": [
+            {
+              "type": "heading6",
+              "content": {
+                "text": "Ne vous inquiétez plus jamais pour oublier des choses",
+                "spans": [{ "start": 0, "end": 53, "type": "strong" }]
+              }
+            },
+            {
+              "type": "paragraph",
+              "content": {
+                "text": "Let Todoist remember it all for you. You can get tasks out of your head and onto your to-do list anytime, anywhere, on any device – even offline.",
+                "spans": []
+              }
+            },
+            {
+              "type": "heading6",
+              "content": {
+                "text": "Todoist aide des millions de personnes à se sentir plus maîtres de leur vie",
+                "spans": [{ "start": 0, "end": 75, "type": "strong" }]
+              }
+            },
+            {
+              "type": "paragraph",
+              "content": {
+                "text": "Let Todoist remember it all for you. You can get tasks out of your head and onto your to-do list anytime, anywhere, on any device – even offline.",
+                "spans": []
+              }
+            },
+            {
+              "type": "paragraph",
+              "content": {
+                "text": "Concentrez votre énergie sur les bonnes choses\nLet Todoist remember it all for you. You can get tasks out of your head and onto your to-do list anytime, anywhere, on any device – even offline.",
+                "spans": [{ "start": 0, "end": 47, "type": "strong" }]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "full_width_image$298ed10a-d387-4654-aa90-7a1f1fe9a538",
+      "value": {
+        "repeat": [{}],
+        "non-repeat": {
+          "background_image_position": "right",
+          "background_image": {
+            "origin": {
+              "id": "XV08DxEAACIAmGwj",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2F1e54c41f-ae78-4d0d-841f-cc1bd27cf302_rectangle+4%402x.png",
+              "width": 1686,
+              "height": 1380
+            },
+            "width": 1686,
+            "height": 1380,
+            "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample/809040bc9dd98dabb52d8e51835ba6549451c734_rectangle-42x.png",
+            "edit": {
+              "background": "transparent",
+              "zoom": 1,
+              "crop": { "x": 0, "y": 0 }
+            },
+            "credits": null,
+            "alt": "Checkbox background ",
+            "provider": null,
+            "thumbnails": {}
+          },
+          "image_black": {
+            "origin": {
+              "id": "XWP0xhMAACIApCwc",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2Fd9fef07f-eabb-4e51-a8a0-a757a95cc202_app-screen-black.png",
+              "width": 1228,
+              "height": 658
+            },
+            "width": 1228,
+            "height": 658,
+            "url": "https://images.prismic.io/todo-app-sample%2Fd9fef07f-eabb-4e51-a8a0-a757a95cc202_app-screen-black.png?auto=compress,format",
+            "edit": {
+              "background": "transparent",
+              "zoom": 1,
+              "crop": { "x": 0, "y": 0 }
+            },
+            "credits": null,
+            "alt": "Layout of the Application",
+            "provider": null,
+            "thumbnails": {}
+          },
+          "image_white": {
+            "origin": {
+              "id": "XWP1ihMAACEApC93",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2F726aa6ed-6498-4814-b0a4-a4f1db034a7e_app-screen-white.png",
+              "width": 1228,
+              "height": 658
+            },
+            "width": 1228,
+            "height": 658,
+            "url": "https://images.prismic.io/todo-app-sample%2F726aa6ed-6498-4814-b0a4-a4f1db034a7e_app-screen-white.png?auto=compress,format",
+            "edit": {
+              "background": "transparent",
+              "zoom": 1,
+              "crop": { "x": 0, "y": 0 }
+            },
+            "credits": null,
+            "alt": "Layout of the Application",
+            "provider": null,
+            "thumbnails": {}
+          }
+        }
+      }
+    },
+    {
+      "key": "email_signup$92f27e38-5183-495b-b35d-1a2b27f4c6b7",
+      "value": {
+        "repeat": [{}],
+        "non-repeat": {
+          "email_title": [
+            {
+              "type": "heading2",
+              "content": { "text": "Recevez une notification", "spans": [] }
+            }
+          ],
+          "email_text": [
+            {
+              "type": "paragraph",
+              "content": {
+                "text": "Soyez averti des mises à jour et soyez le premier à accéder rapidement à la nouvelle façon plus sûre et plus intelligente d'archiver vos fichiers.",
+                "spans": []
+              }
+            }
+          ],
+          "label": [
+            {
+              "type": "paragraph",
+              "content": { "text": "Your Email:", "spans": [] }
+            }
+          ],
+          "placeholder": "johndoe@gmail.com",
+          "button_text": [
+            {
+              "type": "paragraph",
+              "content": { "text": "Rejoignez nos newsletters", "spans": [] }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "display_title_TYPE": "StructuredText",
+  "display_title_POSITION": 0,
+  "page_content_TYPE": "Slices",
+  "page_content_POSITION": 1,
+  "page_content.full_width_image_TYPE": "Slice",
+  "page_content.full_width_image_POSITION": 2,
+  "page_content.full_width_image.non-repeat.background_image_position_TYPE": "Select",
+  "page_content.full_width_image.non-repeat.background_image_position_POSITION": 3,
+  "page_content.full_width_image.non-repeat.background_image_TYPE": "Image",
+  "page_content.full_width_image.non-repeat.background_image_POSITION": 4,
+  "page_content.full_width_image.non-repeat.image_black_TYPE": "Image",
+  "page_content.full_width_image.non-repeat.image_black_POSITION": 5,
+  "page_content.full_width_image.non-repeat.image_white_TYPE": "Image",
+  "page_content.full_width_image.non-repeat.image_white_POSITION": 6,
+  "page_content.email_signup_TYPE": "Slice",
+  "page_content.email_signup_POSITION": 7,
+  "page_content.email_signup.non-repeat.email_title_TYPE": "StructuredText",
+  "page_content.email_signup.non-repeat.email_title_POSITION": 8,
+  "page_content.email_signup.non-repeat.email_text_TYPE": "StructuredText",
+  "page_content.email_signup.non-repeat.email_text_POSITION": 9,
+  "page_content.email_signup.non-repeat.label_TYPE": "StructuredText",
+  "page_content.email_signup.non-repeat.label_POSITION": 10,
+  "page_content.email_signup.non-repeat.placeholder_TYPE": "Text",
+  "page_content.email_signup.non-repeat.placeholder_POSITION": 11,
+  "page_content.email_signup.non-repeat.button_text_TYPE": "StructuredText",
+  "page_content.email_signup.non-repeat.button_text_POSITION": 12,
+  "page_content.call_to_action_TYPE": "Slice",
+  "page_content.call_to_action_POSITION": 13,
+  "page_content.call_to_action.non-repeat.action_title_TYPE": "StructuredText",
+  "page_content.call_to_action.non-repeat.action_title_POSITION": 14,
+  "page_content.call_to_action.non-repeat.action_text_TYPE": "StructuredText",
+  "page_content.call_to_action.non-repeat.action_text_POSITION": 15,
+  "page_content.call_to_action.non-repeat.black_button_TYPE": "Image",
+  "page_content.call_to_action.non-repeat.black_button_POSITION": 16,
+  "page_content.call_to_action.non-repeat.white_button_TYPE": "Image",
+  "page_content.call_to_action.non-repeat.white_button_POSITION": 17,
+  "page_content.icon_info_section_TYPE": "Slice",
+  "page_content.icon_info_section_POSITION": 18,
+  "page_content.icon_info_section.non-repeat.icon_black_TYPE": "Image",
+  "page_content.icon_info_section.non-repeat.icon_black_POSITION": 19,
+  "page_content.icon_info_section.non-repeat.icon_white_TYPE": "Image",
+  "page_content.icon_info_section.non-repeat.icon_white_POSITION": 20,
+  "page_content.icon_info_section.non-repeat.info_title_TYPE": "StructuredText",
+  "page_content.icon_info_section.non-repeat.info_title_POSITION": 21,
+  "page_content.icon_info_section.non-repeat.info_text_TYPE": "StructuredText",
+  "page_content.icon_info_section.non-repeat.info_text_POSITION": 22,
+  "page_content.icon_info_section.non-repeat.info_desc_TYPE": "StructuredText",
+  "page_content.icon_info_section.non-repeat.info_desc_POSITION": 23,
+  "meta_title_TYPE": "Text",
+  "meta_title_POSITION": 24,
+  "meta_description_TYPE": "Text",
+  "meta_description_POSITION": 25,
+  "slugs_INTERNAL": ["page-daccueil", "maison", "homepage"],
+  "uids_INTERNAL": []
+}

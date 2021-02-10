@@ -1,53 +1,44 @@
-# Sample Multi-language Node.js website with Prismic CMS
- 
-This is an example multi-language project with node.js and express.js with content managed in Prismic (an API-based CMS).
- 
-## Check out our article for a step-by-step guide to getting this project up and running
- 
-[Prismic Example project guide](https://user-guides.prismic.io/en/articles/3369091-sample-multi-language-node-js-website-with-prismic-cms) contains the instructions to create your Prismic repository and run this project.
- 
-## Deploy your Node.js Multi-language project
- 
-An easy way to deploy your Node.js website is to use [Heroku](http://www.heroku.com). Just follow these few simple steps once you have successfully [signed up](https://id.heroku.com/signup/www-header) and [installed the Heroku toolbelt](https://toolbelt.heroku.com/):
- 
-Create a new Heroku application
- 
+# Prismic & NodeJS Multi-language website example
+
+> [NodeJS](https://nodejs.org) example multi-page website project with content managed in [Prismic](https://prismic.io)
+
+## Check out the dedicated article to get this project up and running
+
+> [Prismic project guide](https://user-guides.prismic.io/en/articles/3369091-sample-multi-language-node-js-website-with-prismic)
+
+### 1. Install the prismic-cli
 ```
-heroku create
+npm install -g prismic-cli
 ```
- 
-Initialize a new Git repository:
- 
+
+### 2. Run the theme command
+This will create a new Prismic content repository, setup the custom types, and install the project code
+
 ```
-git init
-heroku git:remote -a your-heroku-app-name
+prismic theme --theme-url https://github.com/prismicio/nodejs-multi-language-site --conf config/prismic-configuration.js
+
 ```
- 
-Commit your code to the Git repository and deploy it to Heroku:
- 
+### 3. Run the project
+
+Install nodemon
 ```
-git add .
-git commit -am "make it better"
-git push heroku master
+npm install -g nodemon
 ```
-Ensure you have at least one node running:
- 
+Then, run your project
 ```
-heroku ps:scale web=1
+nodemon
 ```
- 
-You can now browse your application online:
- 
-```
-heroku open
-```
- 
+Then you can access it at [http://localhost:3000](http://localhost:3000).
+## Learn more about using Prismic & Slicemachine with Node.js
+
+> [Prismic + Node.js Documentation](https://prismic.io/docs/technologies/nodejs)
+
 ## License
- 
+
 This software is licensed under the Apache 2 license, quoted below.
- 
-Copyright 2013-2019 Prismic (http://prismic.io).
- 
+
+Copyright 2021 [Prismic](http://prismic.io).
+
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this project except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.
- 
+
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.

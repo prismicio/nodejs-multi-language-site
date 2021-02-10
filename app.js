@@ -4,7 +4,7 @@
 const prismic = require('@prismicio/client');
 const prismicDom = require("prismic-dom");
 const app = require("./config/app-config");
-const prismicConfig = require("./config/prismic-config");
+const prismicConfig = require("./config/prismic-configuration");
 const siteConfig =  require("./config/site-config")
 const port = app.get("port");
 const asyncHandler = require ("./utils/async-handler");
