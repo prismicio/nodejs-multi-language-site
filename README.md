@@ -1,6 +1,6 @@
-# Prismic & Node.js Example Multi-Page Site
+# Prismic & Node.js Multi-language website example
 
-> [Node.js](https://nodejs.org) example multi-page website project with content managed in [Prismic](https://prismic.io)
+> [Node.js](https://nodejs.org) example Multi-language website with content managed in [Prismic](https://prismic.io)
 
 ## Check out the dedicated article to get this project up and running
 
