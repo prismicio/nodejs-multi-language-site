@@ -1,0 +1,38 @@
+{
+  "menu_links": [
+    {
+      "label": [
+        {
+          "type": "paragraph",
+          "content": { "text": "Page accueil", "spans": [] }
+        }
+      ],
+      "link": {
+        "id": "XTb4mBAAACQAOfrg",
+        "wioUrl": "wio://documents/XTb4mBAAACQAOfrg"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "paragraph",
+          "content": { "text": "Propos nous", "spans": [] }
+        }
+      ],
+      "link": {
+        "id": "XTb4vhAAACQAOfuQ",
+        "wioUrl": "wio://documents/XTb4vhAAACQAOfuQ"
+      }
+    }
+  ],
+  "menu_title_TYPE": "StructuredText",
+  "menu_title_POSITION": 0,
+  "menu_links_TYPE": "Group",
+  "menu_links_POSITION": 1,
+  "menu_links.label_TYPE": "StructuredText",
+  "menu_links.label_POSITION": 2,
+  "menu_links.link_TYPE": "Link",
+  "menu_links.link_POSITION": 3,
+  "slugs_INTERNAL": ["page-accueil", "menu"],
+  "uids_INTERNAL": []
+}

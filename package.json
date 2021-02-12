@@ -1,9 +1,7 @@
 {
-  "name": "nodejs-multilang-website",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Multi-language site with Prismic",
-  "main": "app.js",
+  "name": "nodejs-multi-language-website",
+  "description": "Multi-language website example with Node.js using Prismic headless CMS",
+  "author": "Prismic",
   "scripts": {
     "start": "node ./app.js",
     "start-dev": "nodemon ./app.js"
@@ -16,5 +14,9 @@
     "prismic-dom": "^2.2.4",
     "pug": "^2.0.4",
     "serve-favicon": "^2.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prismicio/nodejs-multi-language-site"
   }
 }

@@ -1,0 +1,134 @@
+{
+  "uid": "kjbjk",
+  "page_content": [
+    {
+      "key": "full_width_image$8b550b6e-02fd-4cd9-9922-84b7746fc699",
+      "value": {
+        "repeat": [{}],
+        "non-repeat": {
+          "background_image_position": "left",
+          "background_image": {
+            "origin": {
+              "id": "XWP1ihMAACEApC93",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2F726aa6ed-6498-4814-b0a4-a4f1db034a7e_app-screen-white.png",
+              "width": 1228,
+              "height": 658
+            },
+            "provider": "imgix",
+            "url": "https://images.prismic.io/todo-app-sample%2F726aa6ed-6498-4814-b0a4-a4f1db034a7e_app-screen-white.png?auto=compress,format",
+            "alt": null,
+            "credits": null,
+            "width": 1228,
+            "height": 658,
+            "edit": {
+              "zoom": 1,
+              "crop": { "x": 0, "y": 0 },
+              "background": "transparent"
+            },
+            "thumbnails": {}
+          },
+          "image_black": {
+            "origin": {
+              "id": "XWP0xhMAACIApCwc",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2Fd9fef07f-eabb-4e51-a8a0-a757a95cc202_app-screen-black.png",
+              "width": 1228,
+              "height": 658
+            },
+            "provider": "imgix",
+            "url": "https://images.prismic.io/todo-app-sample%2Fd9fef07f-eabb-4e51-a8a0-a757a95cc202_app-screen-black.png?auto=compress,format",
+            "alt": null,
+            "credits": null,
+            "width": 1228,
+            "height": 658,
+            "edit": {
+              "zoom": 1,
+              "crop": { "x": 0, "y": 0 },
+              "background": "transparent"
+            },
+            "thumbnails": {}
+          },
+          "image_white": {
+            "origin": {
+              "id": "XWP1ihMAACEApC93",
+              "url": "https://prismic-io.s3.amazonaws.com/todo-app-sample%2F726aa6ed-6498-4814-b0a4-a4f1db034a7e_app-screen-white.png",
+              "width": 1228,
+              "height": 658
+            },
+            "provider": "imgix",
+            "url": "https://images.prismic.io/todo-app-sample%2F726aa6ed-6498-4814-b0a4-a4f1db034a7e_app-screen-white.png?auto=compress,format",
+            "alt": null,
+            "credits": null,
+            "width": 1228,
+            "height": 658,
+            "edit": {
+              "zoom": 1,
+              "crop": { "x": 0, "y": 0 },
+              "background": "transparent"
+            },
+            "thumbnails": {}
+          }
+        }
+      }
+    }
+  ],
+  "meta_title": [
+    { "type": "heading1", "content": { "text": "lbhku", "spans": [] } }
+  ],
+  "meta_description": [
+    { "type": "paragraph", "content": { "text": "yhcj", "spans": [] } }
+  ],
+  "uid_TYPE": "UID",
+  "uid_POSITION": 0,
+  "page_content_TYPE": "Slices",
+  "page_content_POSITION": 1,
+  "page_content.email_signup_TYPE": "Slice",
+  "page_content.email_signup_POSITION": 2,
+  "page_content.email_signup.non-repeat.email_title_TYPE": "StructuredText",
+  "page_content.email_signup.non-repeat.email_title_POSITION": 3,
+  "page_content.email_signup.non-repeat.email_text_TYPE": "StructuredText",
+  "page_content.email_signup.non-repeat.email_text_POSITION": 4,
+  "page_content.email_signup.non-repeat.label_TYPE": "StructuredText",
+  "page_content.email_signup.non-repeat.label_POSITION": 5,
+  "page_content.email_signup.non-repeat.placeholder_TYPE": "Text",
+  "page_content.email_signup.non-repeat.placeholder_POSITION": 6,
+  "page_content.email_signup.non-repeat.button_text_TYPE": "StructuredText",
+  "page_content.email_signup.non-repeat.button_text_POSITION": 7,
+  "page_content.call_to_action_TYPE": "Slice",
+  "page_content.call_to_action_POSITION": 8,
+  "page_content.call_to_action.non-repeat.action_title_TYPE": "StructuredText",
+  "page_content.call_to_action.non-repeat.action_title_POSITION": 9,
+  "page_content.call_to_action.non-repeat.action_text_TYPE": "StructuredText",
+  "page_content.call_to_action.non-repeat.action_text_POSITION": 10,
+  "page_content.call_to_action.non-repeat.black_button_TYPE": "Image",
+  "page_content.call_to_action.non-repeat.black_button_POSITION": 11,
+  "page_content.call_to_action.non-repeat.white_button_TYPE": "Image",
+  "page_content.call_to_action.non-repeat.white_button_POSITION": 12,
+  "page_content.highlight_section_TYPE": "Slice",
+  "page_content.highlight_section_POSITION": 13,
+  "page_content.highlight_section.non-repeat.highlight_image_TYPE": "Image",
+  "page_content.highlight_section.non-repeat.highlight_image_POSITION": 14,
+  "page_content.highlight_section.non-repeat.icon_black_TYPE": "Image",
+  "page_content.highlight_section.non-repeat.icon_black_POSITION": 15,
+  "page_content.highlight_section.non-repeat.icon_white_TYPE": "Image",
+  "page_content.highlight_section.non-repeat.icon_white_POSITION": 16,
+  "page_content.highlight_section.non-repeat.highlight_title_TYPE": "StructuredText",
+  "page_content.highlight_section.non-repeat.highlight_title_POSITION": 17,
+  "page_content.highlight_section.non-repeat.highlight_text_TYPE": "StructuredText",
+  "page_content.highlight_section.non-repeat.highlight_text_POSITION": 18,
+  "page_content.full_width_image_TYPE": "Slice",
+  "page_content.full_width_image_POSITION": 19,
+  "page_content.full_width_image.non-repeat.background_image_position_TYPE": "Select",
+  "page_content.full_width_image.non-repeat.background_image_position_POSITION": 20,
+  "page_content.full_width_image.non-repeat.background_image_TYPE": "Image",
+  "page_content.full_width_image.non-repeat.background_image_POSITION": 21,
+  "page_content.full_width_image.non-repeat.image_black_TYPE": "Image",
+  "page_content.full_width_image.non-repeat.image_black_POSITION": 22,
+  "page_content.full_width_image.non-repeat.image_white_TYPE": "Image",
+  "page_content.full_width_image.non-repeat.image_white_POSITION": 23,
+  "meta_title_TYPE": "StructuredText",
+  "meta_title_POSITION": 24,
+  "meta_description_TYPE": "StructuredText",
+  "meta_description_POSITION": 25,
+  "slugs_INTERNAL": ["lbhku"],
+  "uids_INTERNAL": []
+}
