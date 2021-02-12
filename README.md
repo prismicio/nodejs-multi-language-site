@@ -1,35 +1,12 @@
-# Prismic & NodeJS Multi-language website example
+# Prismic & Node.js Example Multi-Page Site
 
-> [NodeJS](https://nodejs.org) example multi-page website project with content managed in [Prismic](https://prismic.io)
+> [Node.js](https://nodejs.org) example multi-page website project with content managed in [Prismic](https://prismic.io)
 
 ## Check out the dedicated article to get this project up and running
 
 > [Prismic project guide](https://user-guides.prismic.io/en/articles/3369091-sample-multi-language-node-js-website-with-prismic)
 
-### 1. Install the prismic-cli
-```
-npm install -g prismic-cli
-```
-
-### 2. Run the theme command
-This will create a new Prismic content repository, setup the custom types, and install the project code
-
-```
-prismic theme --theme-url https://github.com/prismicio/nodejs-multi-language-site --conf config/prismic-configuration.js
-
-```
-### 3. Run the project
-
-Install nodemon
-```
-npm install -g nodemon
-```
-Then, run your project
-```
-nodemon
-```
-Then you can access it at [http://localhost:3000](http://localhost:3000).
-## Learn more about using Prismic & Slicemachine with Node.js
+## Learn more about using Prismic & Node.js
 
 > [Prismic + Node.js Documentation](https://prismic.io/docs/technologies/nodejs)
 
