@@ -2,7 +2,7 @@ module.exports = {
   // -- Prismic API endpoint
   // Determines which repository to query and fetch data from
   // Configure your site's access point here
-  apiEndpoint: 'https://your-repo-name.cdn.prismic.io/api/v2',
+  apiEndpoint: 'https://todo-app-sample.cdn.prismic.io/api/v2',
  
   //-- Access token if the repository is not public
   accessToken: '',
